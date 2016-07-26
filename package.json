@@ -4,16 +4,25 @@
   "subdomain": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MathRobin/koa-force-www.git"
+    "url": "git+https://github.com/MathRobin/koa-force-www.git"
   },
-  "domains": [
-  ],
+  "domains": [],
   "engines": {
     "node": "5.x",
     "npm": "3.x"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/MathRobin/koa-force-www/issues"
   },
-  "devDependencies": {
-  }
+  "homepage": "https://github.com/MathRobin/koa-force-www#readme",
+  "description": "Force www sub-domain for Koa.js app",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "koa"
+  ],
+  "author": "MathRobin <mthrobin@gmail.com> (http://www.matosmaison.fr)",
+  "license": "WTFPL"
 }
