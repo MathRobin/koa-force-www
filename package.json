@@ -1,0 +1,19 @@
+{
+  "name": "koa-force-www",
+  "version": "1.0.0",
+  "subdomain": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MathRobin/koa-force-www.git"
+  },
+  "domains": [
+  ],
+  "engines": {
+    "node": "5.x",
+    "npm": "3.x"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
