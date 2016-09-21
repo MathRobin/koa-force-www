@@ -7,7 +7,7 @@ function *forceWww(next) {
 
     if (!host.startsWith('www')) {
         this.status = 301;
-        this.redirect('http://www.' + host + request.url);
+        this.redirect(request.protocol + '://www.' + host + request.url);
     } else {
         yield next;
     }
